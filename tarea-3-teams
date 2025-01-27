@@ -1,1 +1,208 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNATzZAu7LCbbu5GkxpkZjp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Derek-Ali-rodriguez/Programaci-n-b-sica-D-A-R-/blob/main/tarea-3-teams\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 10,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0EFDufvN8-IZ",
+        "outputId": "47bcb310-6d28-4786-db70-127536c5b952"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hola mundo\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Activida1\n",
+        "print(\"hola mundo\" )\n",
+        "# Ejercico 1\n",
+        "#¿Cual es la funcion de la memoria secundaria en una computadora?\n",
+        "#a)\tEjecutar todos los ca´lculos y la lo´gica del programa.\n",
+        "#b)\tDescargar pa´ginas web de Internet.\n",
+        "#c)\tAlmacenar informacio´n durante mucho tiempo, incluso despu´es de ciclos de apagado y encendido.\n",
+        "#d)\tRecolectar la entrada del usuar\n",
+        " #Respuesta c) Almacenar informacio´n durante mucho tiempo, incluso despu´es de ciclos de apagado y encendido.\n",
+        " #  Ejercicio 2\n",
+        " #  ¿Que es un programa?\n",
+        " #  una secuencia  de declaraciones o sentencias que han sido diseñadas para hacer algo\n",
+        " # Ejercicio 3\n",
+        " #  ¿Cua´l es la diferencia entre un compilador y un intérprete?   un compilador traduce un con digo de alto nivel a uno de bajo nivel ,\n",
+        " # el interprete lo traduce y lo ejecuta\n",
+        " # Ejercicio 4\n",
+        "# ¿Cua´l de los siguientes contiene “c´odigo ma´quina”\n",
+        "# a)\tEl int´erprete de Python.\n",
+        "# b)\tEl teclado.\n",
+        "# c )\tEl co´digo fuente de Python.\n",
+        "# d)\tUn documento de un procesador de texto.\n",
+        "# Respuesta a)\tEl int´erprete de Python\n",
+        "# Ejercicio 5\n",
+        "#¿Qu´e esta´ mal en el siguiente c´odigo?:\n",
+        "#>>> primt ’¡Hola, mundo!’ File \"<stdin>\", line 1 primt ’¡Hola, mundo!’\n",
+        "#^\n",
+        "#SyntaxError: invalid syntax\n",
+        "#>>>\n",
+        "#en vez de >>> primt ’¡Hola, mundo!’  deberia ser print (¡Hola, mundo!), el error es la instruccion primt que es invalida\n",
+        "#Ejercicio 6\n",
+        "#¿En qu´e lugar del computador queda almacenada una variable, como en este caso “x”, despu´es de ejecutar la siguiente l´ınea de Python?:\n",
+        "#x = 123\n",
+        "#a)\tUnidad central de procesamiento.\n",
+        "#b)\tMemoria Principal.\n",
+        "#c)\tMemoria Secundaria.\n",
+        "#d)\tDispositivos de Entrada.\n",
+        "#e)\tDispositivos de Salida.\n",
+        "#Respuesta b)\tMemoria Principal.\n",
+        "# Ejercicio 7\n",
+        "#¿Qu´e mostrara´ en pantalla el siguiente programa?:\n",
+        "#x = 43\n",
+        "#x = x + 1 print(x)\n",
+        "#a)\t43.\n",
+        "#b)\t44.\n",
+        "#c)\tx + 1.\n",
+        "#d)\tError, porque x = x + 1 no es posible matem´aticamente.\n",
+        "#Respuesta a) 44.\n",
+        " #Ejercicio 8\n",
+        " #Explica cada uno de los siguientes conceptos usando un ejemplo de una capacidad humana:\n",
+        " #1.\tUnidad central de procesamiento.\n",
+        " #2.\tMemoria principal.\n",
+        " #3.\tMemoria secundaria.\n",
+        " #4.\tDispositivos de entrada.\n",
+        " #5.\tDispositivos de salida.\n",
+        " #Por ejemplo: “¿Cu´al ser´ıa el equivalente humano de la Unidad central de procesamien- to?”.\n",
+        " #1. *Unidad Central de Procesamiento (CPU)*  *Equivalente humano: **El cerebro.*\n",
+        " #2. *Memoria Principal (RAM)*  *Equivalente humano: **La memoria a corto plazo.\n",
+        " #3.  Memoria Secundaria*  Equivalente humano: **La memoria a largo plazo.*\n",
+        " #4*Dispositivos de Entrada** *Equivalente humano: **Los sentidos (como los ojos y los oídos).*\n",
+        " # 5. *Dispositivos de Salida*  *Equivalente humano: **La comunicación o la expresión (hablar, escribir, gestos).*\n",
+        "#Ejercicio 9\n",
+        "#¿Co´mo puedes corregir un “Error de sintaxis”?\n",
+        "#hay que identificar el error que no  esta escrito correctamente, y luego escribirlo correctamente\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "kYOOAOQAm_9o"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Ejercico 1\n",
+        "#¿Cual es la funcion de la memoria secundaria en una computadora?\n",
+        "#a)\tEjecutar todos los ca´lculos y la lo´gica del programa.\n",
+        "#b)\tDescargar pa´ginas web de Internet.\n",
+        "#c)\tAlmacenar informacio´n durante mucho tiempo, incluso despu´es de ciclos de apagado y encendido.\n",
+        "#d)\tRecolectar la entrada del usuar\n",
+        " #Respuesta c) Almacenar informacio´n durante mucho tiempo, incluso despu´es de ciclos de apagado y encendido.\n",
+        " #  Ejercicio 2\n",
+        " #  ¿Que es un programa?\n",
+        " #  una secuencia  de declaraciones o sentencias que han sido diseñadas para hacer algo\n",
+        " # Ejercicio 3\n",
+        " #  ¿Cua´l es la diferencia entre un compilador y un intérprete?   un compilador traduce un con digo de alto nivel a uno de bajo nivel ,\n",
+        " # el interprete lo traduce y lo ejecuta\n",
+        " # Ejercicio 4\n",
+        "# ¿Cua´l de los siguientes contiene “c´odigo ma´quina”\n",
+        "# a)\tEl int´erprete de Python.\n",
+        "# b)\tEl teclado.\n",
+        "# c )\tEl co´digo fuente de Python.\n",
+        "# d)\tUn documento de un procesador de texto.\n",
+        "# Respuesta a)\tEl int´erprete de Python\n",
+        "# Ejercicio 5\n",
+        "#¿Qu´e esta´ mal en el siguiente c´odigo?:\n",
+        "#>>> primt ’¡Hola, mundo!’ File \"<stdin>\", line 1 primt ’¡Hola, mundo!’\n",
+        "#^\n",
+        "#SyntaxError: invalid syntax\n",
+        "#>>>\n",
+        "#en vez de >>> primt ’¡Hola, mundo!’  deberia ser print (¡Hola, mundo!), el error es la instruccion primt que es invalida\n",
+        "#Ejercicio 6\n",
+        "#¿En qu´e lugar del computador queda almacenada una variable, como en este caso “x”, despu´es de ejecutar la siguiente l´ınea de Python?:\n",
+        "#x = 123\n",
+        "#a)\tUnidad central de procesamiento.\n",
+        "#b)\tMemoria Principal.\n",
+        "#c)\tMemoria Secundaria.\n",
+        "#d)\tDispositivos de Entrada.\n",
+        "#e)\tDispositivos de Salida.\n",
+        "#Respuesta b)\tMemoria Principal.\n",
+        "# Ejercicio 7\n",
+        "#¿Qu´e mostrara´ en pantalla el siguiente programa?:\n",
+        "#x = 43\n",
+        "#x = x + 1 print(x)\n",
+        "#a)\t43.\n",
+        "#b)\t44.\n",
+        "#c)\tx + 1.\n",
+        "#d)\tError, porque x = x + 1 no es posible matem´aticamente.\n",
+        "#Respuesta a) 44.\n",
+        " #Ejercicio 8\n",
+        " #Explica cada uno de los siguientes conceptos usando un ejemplo de una capacidad humana:\n",
+        " #1.\tUnidad central de procesamiento.\n",
+        " #2.\tMemoria principal.\n",
+        " #3.\tMemoria secundaria.\n",
+        " #4.\tDispositivos de entrada.\n",
+        " #5.\tDispositivos de salida.\n",
+        " #Por ejemplo: “¿Cu´al ser´ıa el equivalente humano de la Unidad central de procesamien- to?”.\n",
+        " #1. *Unidad Central de Procesamiento (CPU)*  *Equivalente humano: **El cerebro.*\n",
+        " #2. *Memoria Principal (RAM)*  *Equivalente humano: **La memoria a corto plazo.\n",
+        " #3.  Memoria Secundaria*  Equivalente humano: **La memoria a largo plazo.*\n",
+        " #4*Dispositivos de Entrada** *Equivalente humano: **Los sentidos (como los ojos y los oídos).*\n",
+        " # 5. *Dispositivos de Salida*  *Equivalente humano: **La comunicación o la expresión (hablar, escribir, gestos).*\n",
+        "#Ejercicio 9\n",
+        "#¿Co´mo puedes corregir un “Error de sintaxis”?\n",
+        "#hay que identificar el error que no  esta escrito correctamente, y luego escribirlo correctamente"
+      ],
+      "metadata": {
+        "id": "kzt7zitpnBMx"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "itSR1eOfm7ij"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "pu_xsxIRlJib"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
